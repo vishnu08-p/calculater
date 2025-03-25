@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+       <title>Document</title>
+       <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="cal-body">
+        <input class="input-field" readonly id="ans">
+        <table >
+            <tr>
+                <td class="btn-sec" onclick="cls()">c</td>
+                <td class="btn-sec" onclick="lcls()"><=</td>
+                <td class="btn-sec" onclick="num('%')">%</td>
+                <td class="btn-danger" onclick="num('/')">/</td>
+            </tr>
+            <tr>
+                <td class="btn-dark" onclick="num(7)">7</td>
+                <td class="btn-dark" onclick="num(8)">8</td>
+                <td class="btn-dark" onclick="num(9)">9</td>
+                <td class="btn-danger" onclick="num('*')">X</td>
+            </tr>
+            <tr>
+                <td class="btn-dark" onclick="num(4)">4</td>
+                <td class="btn-dark" onclick="num(5)">5</td>
+                <td class="btn-dark" onclick="num(6)">6</td>
+                <td class="btn-danger" onclick="num('-')">-</td>
+            </tr>
+            <tr>
+                <td class="btn-dark" onclick="num(1)">1</td>
+                <td class="btn-dark" onclick="num(2)">2</td>
+                <td class="btn-dark" onclick="num(3)">3</td>
+                <td class="btn-danger" onclick="num('+')">+</td>
+            </tr>
+            <tr>
+                <td class="btn-dark" onclick="num(0)" colspan="2">0</td>
+                <td class="btn-dark" onclick="num('.')">.</td>
+                <td onclick="ans()" class="btn-danger">=</td>
+            </tr>
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

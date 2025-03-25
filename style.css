@@ -1,0 +1,39 @@
+.cal-body{
+    background-color: black;
+    min-height:  90vh;
+    padding-bottom: -20px;
+    width: 78vw;
+    margin: 5vh 10vw 5vh 10vw;
+}
+.input-field{
+    width: 88%;
+    background-color: black;
+    height: 20%;
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: 900;
+    margin: 5% 5% 5% 5%;
+}
+table{
+    width: 98%;
+    height: 72%;
+    color: aliceblue;
+    margin-left: 1%;
+
+}
+td{
+    text-align: center;
+    font-weight: 900;
+    font-size: 40px;
+    border-radius: 50px;    
+}
+.btn-sec{
+    background-color: rgba(240, 248, 255, 0.366);
+}
+.btn-danger{
+    background-color: orange;
+    color: aliceblue;
+}
+.btn-dark{
+    background-color: rgba(255, 228, 196, 0.342);
+}
